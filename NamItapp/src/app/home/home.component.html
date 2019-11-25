@@ -1,0 +1,20 @@
+
+<div class="">
+  <ul>
+    <li (click)="selected(movie.id)" *ngFor="let movie of movies">
+      <div class="ScreenMovie">
+        <div class="details">
+          <p class="title">{{ details[movie.id].name }}</p>
+          <p class="desc">{{ details[movie.id].short }}</p>
+          <p class="rate">{{ details[movie.id].rate }}</p>
+          <div class="langs">
+            <span *ngFor="let language of details[movie.id].languages" class="lang">
+              <span>{{ language }}</span>
+            </span>
+          </div>
+        </div>
+        <img src="{{ imags[movie.id].screen }}" class="image">
+      </div>
+    </li>
+  </ul>
+</div>

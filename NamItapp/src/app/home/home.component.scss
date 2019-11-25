@@ -1,0 +1,46 @@
+.ScreenMovie .image {
+    margin: 10px;
+    background-color: #17173b;
+    height: 250px;
+    width: 170px;
+}
+
+.ScreenMovie .details {
+    position: absolute;
+    background-image: url(/assets/images/blackback.png);
+    margin: 10px;
+    height: 250px;
+    width: 170px;
+    opacity: 0%;
+}
+
+.ScreenMovie:hover .details {
+    opacity: 100%;
+    transition: opacity 0.2s linear;
+}
+
+.ScreenMovie .details .title {
+    color: #b4e7e6;
+    font-family: 'Courier New';
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+}
+
+.ScreenMovie .details .rate {
+    color: #a6b1ff;
+    font-family: 'Stencil Std';
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 70px;
+    text-align: center;
+}
+
+li {
+    display: inline-grid;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+}

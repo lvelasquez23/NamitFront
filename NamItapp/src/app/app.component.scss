@@ -1,0 +1,66 @@
+header {
+    position: fixed;
+    z-index: 10;
+    background-color: #040442;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+}
+
+ul {
+    position: relative;
+    height: 10%;
+    width: 100%;
+}
+
+.logo {
+    position: absolute;
+    cursor: pointer;
+    height: 88px;
+    width: 165px;
+    margin-top: -18px;
+    margin-left: 50px;
+}
+
+.home {
+    display: inline-grid;
+    position: fixed;
+    right: 680px;
+}
+
+.movies {
+    display: inline-grid;
+    position: fixed;
+    right: 550px;
+}
+
+.linked {
+    justify-content: space-evenly;
+    border-radius: 15px;
+    align-items: center;
+    background-color: #0d3759;
+    color: #aad5ff;
+    font-family: 'Courier New';
+    font-size: 16px;
+    font-weight: 800;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.linked:hover {
+    background-color: #0082e1;
+    color: #00406E;
+}
+
+.content {
+    position: relative;
+    margin-left: 10%;
+    background-color: rgba(133, 241, 255, 0.2);
+    margin-right: 10%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
